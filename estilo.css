@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Cor de fundo para o corpo da página */
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Cor de fundo com transparência (aqui definimos 50% de transparência) */
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #0a1310;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0a74e6;
+}
+
+
+body {
+    background-image: url('./613769.jpg');
+    /* Substitua pelo caminho correto para a sua imagem */
+    background-size: cover;
+    /* Isso ajusta a imagem para cobrir toda a área do body */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+}
